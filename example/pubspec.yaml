@@ -12,7 +12,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_blue:
+  # TODO: Import from file system!
+  deepcare_blue:
     path: ../
 
 flutter:

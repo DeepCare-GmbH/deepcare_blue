@@ -2,7 +2,7 @@
 // All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:flutter_blue/flutter_blue.dart';
+import 'package:deepcare_blue/flutter_blue.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 main() {
@@ -19,14 +19,12 @@ main() {
 
     test('empty()', () {
       var guid = new Guid.empty();
-      expect("[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
-          guid.toByteArray().toString());
+      expect("[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]", guid.toByteArray().toString());
     });
 
     test('toByteArray()', () {
       var guid = new Guid("{00002a43-0000-1000-8000-00805f9b34fb}");
-      expect("[0, 0, 42, 67, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]",
-          guid.toByteArray().toString());
+      expect("[0, 0, 42, 67, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]", guid.toByteArray().toString());
     });
 
     test('toString()', () {
@@ -36,8 +34,7 @@ main() {
 
     test('fromMac()', () {
       var guid = new Guid.fromMac("24:0A:64:50:A4:67");
-      expect("[36, 10, 100, 80, 164, 103, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
-          guid.toByteArray().toString());
+      expect("[36, 10, 100, 80, 164, 103, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]", guid.toByteArray().toString());
     });
 
     test('fromMac()', () {
