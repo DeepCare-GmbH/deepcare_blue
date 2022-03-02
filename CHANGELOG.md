@@ -1,3 +1,7 @@
+## 0.8.1
+
+* General update.
+
 ## 0.8.0
 * Migrate the plugin to null safety.
 
