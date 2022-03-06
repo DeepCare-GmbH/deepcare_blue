@@ -1,3 +1,8 @@
+## 0.8.2
+
+* Return bool from write command.
++ Less prints.
+
 ## 0.8.1
 
 * General update.
