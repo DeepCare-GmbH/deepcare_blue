@@ -2,7 +2,7 @@ name: deepcare_blue
 description:
   Flutter plugin for connecting and communicating with Bluetooth Low Energy devices,
   on Android and iOS
-version: 0.8.3
+version: 0.8.4
 homepage: https://github.com/DeepCare-GmbH/deepcare_blue
 
 environment:

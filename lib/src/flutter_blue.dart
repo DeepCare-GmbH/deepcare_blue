@@ -191,11 +191,11 @@ class FlutterBlue {
     _logLevel = level;
   }
 
-  void _log(LogLevel level, String message) {
-    if (level.index <= _logLevel.index) {
-      print(message);
-    }
-  }
+  // void _log(LogLevel level, String message) {
+  //   if (level.index <= _logLevel.index) {
+  //     print(message);
+  //   }
+  // }
 }
 
 /// Log levels for FlutterBlue
