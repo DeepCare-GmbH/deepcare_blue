@@ -1,3 +1,7 @@
+## 0.8.5
+
+* Added to/from JSON for BluetoothDevice.
+
 ## 0.8.4
 
 * Removed warnings.
