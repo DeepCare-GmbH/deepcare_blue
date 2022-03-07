@@ -1,3 +1,7 @@
+## 0.8.3
+
+* Fixed iOS.
+
 ## 0.8.2
 
 * Return bool from write command.
